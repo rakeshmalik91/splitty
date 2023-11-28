@@ -1,0 +1,68 @@
+people:
+- id: '8098789274'
+  name: Rakesh Malik
+  friends:
+  - '8951285552'
+  groups:
+  - '1'
+- id: '8951285552'
+  name: Chinmaya Mohini
+  friends:
+  - '8098789274'
+  groups:
+  - '1'
+groups:
+- id: '1'
+  members:
+  - '8098789274'
+  - '8951285552'
+  name: Delhi++
+  created_at: 28-11-2023T21:00:00+05:30
+  created_by: '8098789274'
+  udapted_at: 28-11-2023T21:00:00+05:30
+  udapted_by: '8098789274'
+  expenses:
+  - '1'
+expenses:
+- id: '1'
+  name: Dinner
+  time: 28-11-2023T21:00:00+05:30
+  created_at: 28-11-2023T21:00:00+05:30
+  created_by: '8098789274'
+  udapted_at: 28-11-2023T21:00:00+05:30
+  udapted_by: '8098789274'
+  total: '296'
+  paid_by:
+  - person: '8098789274'
+    amount: '296'
+  share:
+  - person: '8098789274'
+    amount: '108'
+    items:
+    - name: Butter Roti
+      quantity: '4'
+      amount: '7'
+      total: '28'
+    - name: Bharta
+      quantity: '0.5'
+      amount: '80'
+      total: '40'
+    - name: Mix Veg
+      quantity: '0.5'
+      amount: '80'
+      total: '40'
+  - person: '8951285552'
+    amount: '188'
+    items:
+    - name: Butter Roti
+      quantity: '4'
+      amount: '7'
+      total: '28'
+    - name: Bharta
+      quantity: '0.5'
+      amount: '80'
+      total: '40'
+    - name: Mix Veg
+      quantity: '1.5'
+      amount: '80'
+      total: '120'
